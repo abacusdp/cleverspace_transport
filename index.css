@@ -8,14 +8,13 @@ table {
       border-collapse: collapse;
       width: 100%;
     }
-    table, td, th {  
-        border: 1px solid #ddd;
-        text-align: center;
-      }
+   
       
       table {
         border-collapse: collapse;
         width: 100%;
+          border: 1px solid #ddd;
+        text-align: center;
       }
       
       th, td {
@@ -24,12 +23,14 @@ table {
     td {
       padding: 8px;
       text-align: center;
+        border: 1px solid #ddd;
       border-bottom: 1px solid #ddd;
     }
     th {
         background-color: "rgba(84,161,183,1)";
         padding: 8px;
       text-align: center;
+        border: 1px solid #ddd;
       border-bottom: 1px solid #ddd;
         
       }
