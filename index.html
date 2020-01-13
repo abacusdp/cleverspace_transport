@@ -175,9 +175,11 @@
             },
             legend: {
                 cursor:"pointer",
-                itemclick: toggleDataSeries
+                itemclick: toggleDataSeries,
+                fontSize: 15
             },
             data: [{
+              legendMarkerType: "circle",
                 color:"rgba(84,161,183,1)",
                 type: "column",
                 name: "Average Occupancy",
@@ -189,6 +191,7 @@
                 { x: 4, y: 85 }]
             },
             {
+              legendMarkerType: "circle",
                 color:"rgba(100,183,154,1)",
                 type: "column",	
                 name: "Delay (in mins)",
@@ -221,6 +224,7 @@
                 title: "Number of Passengers"
             },
             data: [{
+
                 type: "bar",
                 name: "No. of Passengers",
                 axisYType: "secondary",
